@@ -44,7 +44,7 @@ header {
 
 /* Style rules for nav */
 nav {
-    position: -webkit-sticky;
+    position: -webkit-sticky;           /* Keeps header info at top of viewport while scrolling */
     position: sticky;
     top: 0;
 	padding: 1%;
@@ -54,10 +54,11 @@ nav {
 
 nav ul {
     text-align: center;
-    
+    list-style-type: none;              /* Removes bullet marker on list */
 }
 
 nav li {
+    font-family: "B612", sans-serif;
     font-size: 1.5em;
     padding: 4%;
     display: inline-block;
@@ -66,7 +67,7 @@ nav li {
 nav li a {
     display: block;
     color: #092834;
-    text-decoration: none;
+    text-decoration: none;              /* No underline on navigation links */
 }
 
 /* Style rules for main content  */
@@ -74,7 +75,12 @@ main {
 	display: block;
 	margin: 1% 1% 15%;
 	padding: 1%;
+    font-family: "Crimson Text", serif;
     font-size: 1.5em;
+}
+
+.corner {
+    border-radius: 12px;
 }
 
 #image {
