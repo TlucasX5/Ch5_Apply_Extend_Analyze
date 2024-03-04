@@ -32,21 +32,21 @@ body {
 /* relative */
 .relative {
     position: relative;
-    top: 90px;
-    left: 30px;
+    top: 150px;
+    left: 60px;
 }
 
 /* fixed */
 .fixed {
     position: fixed;
-    top: 90px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
 }
 
 
 /* absolute */
 .absolute {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 90;
+    right: 20;
 }
