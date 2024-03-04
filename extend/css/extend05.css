@@ -23,12 +23,30 @@ body {
 }
 
 /* sticky */
-
+.box sticky {
+    position: -webkit-sticky;           /* Keeps header info at top of viewport while scrolling */
+    position: sticky;
+    top: 0;
+}
 
 /* relative */
-
+.box relative {
+    position: relative;
+    top: 150px;
+    left: 60px;
+}
 
 /* fixed */
+.box fixed {
+    position: fixed;
+    top: 150px;
+    right: 60px;
+}
 
 
 /* absolute */
+.box absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
